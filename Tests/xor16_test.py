@@ -1,7 +1,7 @@
 
-import cryptotraces.BlockCipher.Xor16
+import cryptotraces.block_ciphers
 
-c = cryptotraces.BlockCipher.Xor16()
+c = cryptotraces.block_ciphers.Xor16()
 l = c.get_blocklength()
 lk = c.get_keylength()
 c.load_key(range(1,lk+1))
