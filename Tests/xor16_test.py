@@ -1,6 +1,7 @@
 
 from cryptotraces.block_ciphers import xor16
 
+print 'coucou'
 c = xor16.Xor16()
 l = c.get_blocklength()
 lk = c.get_keylength()
