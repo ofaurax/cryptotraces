@@ -1,5 +1,5 @@
 
-import interface
+from cryptotraces.block_ciphers import interface
 
 class Xor16(interface.BlockCipher):
 
