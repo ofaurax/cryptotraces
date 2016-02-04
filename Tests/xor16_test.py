@@ -13,4 +13,5 @@ c.decrypt()
 print(c.trace())
     
 #fail
-raise AssertionErrors
+#raise AssertionErrors
+assert 1==2
