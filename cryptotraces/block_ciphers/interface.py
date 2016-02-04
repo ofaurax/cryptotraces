@@ -24,7 +24,7 @@ class BlockCipher:
         return self.keyLength
 
     def load_key(self, key):
-        self.key = key
+        self.key = list(key)
 
     def load_data(self, data):
-        self.data = data
+        self.data = list(data)
