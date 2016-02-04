@@ -15,7 +15,7 @@ class BlockCipher:
         raise NotImplementedError
 
     def trace(self):
-        return [ ['data', self.data], ['key', self.key] ]
+        return {'data': self.data, 'key': self.key}
 
     def get_blocklength(self):
         return self.blockLength
